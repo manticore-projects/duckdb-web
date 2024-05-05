@@ -62,7 +62,7 @@ This section describes functions and operators for examining and manipulating st
 | [`regexp_extract(string, pattern[, idx])`](#regexp_extractstring-pattern-idx) | If `string` contains the regexp `pattern`, returns the capturing group specified by optional parameter `idx` (see [Pattern Matching](patternmatching#using-regexp_extract)). |
 | [`regexp_full_match(string, regex)`](#regexp_full_matchstring-regex) | Returns `true` if the entire `string` matches the `regex` (see [Pattern Matching](patternmatching)). |
 | [`regexp_matches(string, pattern)`](#regexp_matchesstring-pattern) | Returns `true` if  `string` contains the regexp `pattern`, `false` otherwise (see [Pattern Matching](patternmatching#using-regexp_matches)). |
-| [`regexp_replace(string, pattern, replacement)`](#regexp_replacestring-pattern-replacement) | If `string` contains the regexp `pattern`, replaces the matching part with `replacement` (see [Pattern Matching](patternmatching#using-regexp_replace)). |
+| [`regexp_replace(string, pattern, replacement [, flags])`](#regexp_replacestring-pattern-replacement) | If `string` contains the regexp `pattern`, replaces the matching part with `replacement` (see [Pattern Matching](patternmatching#using-regexp_replace)). |
 | [`regexp_split_to_array(string, regex)`](#regexp_split_to_arraystring-regex) | Splits the `string` along the `regex`. |
 | [`regexp_split_to_table(string, regex)`](#regexp_split_to_tablestring-regex) | Splits the `string` along the `regex` and returns a row for each part. |
 | [`repeat(string, count)`](#repeatstring-count) | Repeats the `string` `count` number of times. |
